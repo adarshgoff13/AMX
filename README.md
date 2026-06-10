@@ -157,6 +157,6 @@ To ensure your layout elements compile beautifully, verify that these dependenci
 
 ## 💻 Contribution
 
-1. Fork the codebase at the official `https://github.com/AMX` page.
+1. Fork the codebase at the official `https://github.com/adarshgoff13/AMX` page.
 2. Open feature branches: `git checkout -b feature/cool-new-widget`
 3. Commit assets and submit polished Pull Requests.
