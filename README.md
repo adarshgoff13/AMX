@@ -40,20 +40,20 @@ Ensure your Next.js directory is structured as follows:
 
 ```text
 my-nextjs-app/
-├── public/                 # Static assets (icons, wallpaper)
+├── public/                 
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx      # Next.js global layout (with HTML, Body, and Fonts)
-│   │   ├── page.tsx        # Main entry point (Paste and adapt your App.tsx here)
-│   │   └── globals.css     # Global CSS rules (Tailwind configs)
-│   ├── components/         # Move your AMX components here
+│   │   ├── layout.tsx      
+│   │   ├── page.tsx        
+│   │   └── globals.css     
+│   ├── components/        
 │   │   ├── CommunityBoard.tsx
 │   │   ├── InstallWizard.tsx
 │   │   ├── ThemeToggle.tsx
 │   │   └── WidgetStudio.tsx
-│   ├── data/               # Move static configuration datasets here
+│   ├── data/               
 │   │   └── data.ts
-│   └── types/              # Move TypeScript interfaces here
+│   └── types/              
 │       └── types.ts
 ├── package.json
 └── tailwind.config.ts
@@ -157,6 +157,6 @@ To ensure your layout elements compile beautifully, verify that these dependenci
 
 ## 💻 Contribution
 
-1. Fork the codebase at the official `https://github.com/amx-os/reskin` page.
+1. Fork the codebase at the official `https://github.com/AMX` page.
 2. Open feature branches: `git checkout -b feature/cool-new-widget`
 3. Commit assets and submit polished Pull Requests.
